@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pomidor</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main>
+    <div id="time">00:00</div>
+
+    <div id="buttons">
+      <div>
+        <button id="pomidor">Pomidor</button>
+        <button id="reset">Reset</button>
+      </div>
+      <div>
+        <button id="shortBreak">Short break</button>
+        <button id="longBreak">Long break</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <em>by <a href="mailto:dominik.magdalenski@gmail.com">Dominik Magdaleński</a></em>
+  </footer>
+  
+  <!-- Hidden elements: -->
+  <audio id="alarm" src="guitar2.mp3" hidden></audio>
+
+  <script>
+    require('./renderer.js');
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  display: grid;
+}
+
+#time {
+  font-size: 4rem;
+  justify-self: center;
+  align-self: end;
+  margin-bottom: 15px;
+}
+
+#buttons {
+  justify-self: center;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#buttons div {
+  display: flex;
+  flex-direction: column;
+}
+
+#buttons div button {
+  font-size: 16px;
+  padding: 10px;
+  width: 120px;
+  margin: 5px 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  right: 10px;
+  font-size: 10px;
+}
