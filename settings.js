@@ -22,7 +22,7 @@ const elementIds = {
   pomidor: 'pomidor',
   longBreak: 'longBreak',
   shortBreak: 'shortBreak',
-  reset: 'reset'
+  stop: 'stop'
 };
 
 const elements = Object.keys(elementIds).reduce((result, key) => (

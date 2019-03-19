@@ -57,4 +57,4 @@ function stop() {
 elements.pomidor.addEventListener('click', () => start(times.pomidor));
 elements.longBreak.addEventListener('click', () => start(times.longBreak));
 elements.shortBreak.addEventListener('click', () => start(times.shortBreak));
-elements.reset.addEventListener('click', stop);
+elements.stop.addEventListener('click', stop);
